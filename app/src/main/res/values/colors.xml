@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary and Secondary Colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondaryColor">#03DAC5</color>
+
+    <!-- Background and Surface -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="surfaceColor">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+
+    <!-- Action Button Colors -->
+    <color name="startColor">#4CAF50</color>
+    <color name="stopColor">#F44336</color>
+    <color name="shareColor">#1976D2</color>
+    <color name="eventColor">#FF9800</color>
+
+    <!-- ✅ MISSING COLORS (Added Below) -->
+    <color name="buttonColor">#FF5722</color>  <!-- Orange for Buttons -->
+    <color name="white">#FFFFFF</color>  <!-- White Color -->
+
+    <!-- Miscellaneous -->
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="shadowColor">#80000000</color>
+</resources>

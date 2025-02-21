@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_medium"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to Start Recording"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/padding_large"/>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:layout_marginBottom="@dimen/padding_large"
+        android:padding="@dimen/padding_medium">
+
+    <EditText
+        android:id="@+id/etTranscribedText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="140dp"
+    android:maxHeight="160dp"
+    android:scrollbars="vertical"
+    android:gravity="top"
+    android:padding="@dimen/padding_medium"
+    android:background="@color/white"
+    android:textColor="@color/textColorPrimary"
+    android:textSize="18sp"/>
+</com.google.android.material.card.MaterialCardView>
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnStartRecording"
+style="@style/ButtonStyle"
+android:text="Start Recording"/>
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnStopRecording"
+style="@style/ButtonStyle"
+android:text="Stop Recording"
+android:visibility="gone"/>
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnShare"
+style="@style/ButtonStyle"
+android:text="Share Text"/>
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnAddEvent"
+style="@style/ButtonStyle"
+android:text="Add to Calendar"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveTask"
+        style="@style/ButtonStyle"
+        android:text="Save Task"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewTasks"
+        style="@style/ButtonStyle"
+        android:text="View Tasks"/>
+    </LinearLayout>
